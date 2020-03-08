@@ -1,26 +1,14 @@
 <?php
 
-function addToFile($filename, $data){
-    $file = fopen($filename, 'a');
-    $str = "\n";
-    if(is_array($data)){
-        foreach ($data as $item)
-            $str .= $item . "\n";
-    }
-    else{
-        $str .= $data;
-    }
-    fwrite($file, $str);
-    fclose($file);
-}
+include_once 'Helpers.php';
 
-function getFromFile($filename){
-    $file = fopen($filename, 'r');
-    $str = readfile($file);
-    return preg_split("/[\s,]+/", $str);
-}
+$tag = new Tag("a");
 
-addToFile("data.txt", "Hello World");
-addToFile("data.txt", array("My", "new", "program"));
+$tag->setAttributes("style", "color: red;");
 
-print_r(getFromFile("data.txt"));
+$tag->setAttributes(["href" => "https://google.com"]);
+
+$tag->prependBody("Hello");
+$tag->appendBody(" world");
+
+echo $tag;

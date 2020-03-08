@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="789452b5-9b2f-4e7d-bc85-1b6d05212be4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XNTWbA3JIZv2vqsiI4Pg6KPlsC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -63,7 +65,9 @@
       <workItem from="1583642127226" duration="1794000" />
       <workItem from="1583643948963" duration="1799000" />
       <workItem from="1583645812906" duration="1793000" />
-      <workItem from="1583647623222" duration="1139000" />
+      <workItem from="1583647623222" duration="1903000" />
+      <workItem from="1583652368188" duration="1727000" />
+      <workItem from="1583654113799" duration="118000" />
     </task>
     <servers />
   </component>
@@ -115,10 +119,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583648723961" />
-    <state x="518" y="286" key="NewPhpFileDialog" timestamp="1583643262435">
+    <state x="514" y="177" key="NewPhpClassDialog" timestamp="1583654138525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583643262435" />
+    <state x="514" y="177" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1583654138525" />
+    <state x="518" y="286" key="NewPhpFileDialog" timestamp="1583654014532">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583654014532" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1583648782495">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
