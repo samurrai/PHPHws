@@ -1,28 +1,26 @@
 <?php
 
-include_once "Matrix.php";
+function addToFile($filename, $data){
+    $file = fopen($filename, 'a');
+    $str = "\n";
+    if(is_array($data)){
+        foreach ($data as $item)
+            $str .= $item . "\n";
+    }
+    else{
+        $str .= $data;
+    }
+    fwrite($file, $str);
+    fclose($file);
+}
 
-$arr = array(
-    array(
-        1, 2, 3,
-    ),
-    array(
-        4, 5, 6
-    ));
+function getFromFile($filename){
+    $file = fopen($filename, 'r');
+    $str = readfile($file);
+    return preg_split("/[\s,]+/", $str);
+}
 
+addToFile("data.txt", "Hello World");
+addToFile("data.txt", array("My", "new", "program"));
 
-$m = new Matrix($arr);
-$n = new Matrix($arr);
-
-$m->add($n);
-print_r($m->toArray());
-
-echo "\n\n";
-
-$m->diff($n);
-print_r($m->toArray());
-
-echo "\n\n";
-
-$m->diff($n);
-print_r($m->toArray());
+print_r(getFromFile("data.txt"));
