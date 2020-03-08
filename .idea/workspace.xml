@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="789452b5-9b2f-4e7d-bc85-1b6d05212be4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Attributes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Body.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Tag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +36,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OSPanel/modules/php/PHP-7.1-x64/php.exe" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PHPProjects\Kinds" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
@@ -67,7 +76,9 @@
       <workItem from="1583645812906" duration="1793000" />
       <workItem from="1583647623222" duration="1903000" />
       <workItem from="1583652368188" duration="1727000" />
-      <workItem from="1583654113799" duration="118000" />
+      <workItem from="1583654113799" duration="728000" />
+      <workItem from="1583665580639" duration="1756000" />
+      <workItem from="1583668030358" duration="1113000" />
     </task>
     <servers />
   </component>
@@ -87,10 +98,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583640461931" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1583644305348">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1583668387579">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583644305348" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583668387579" />
     <state x="402" y="51" key="#index.php" timestamp="1580888586201">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -119,14 +130,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583648723961" />
-    <state x="514" y="177" key="NewPhpClassDialog" timestamp="1583654138525">
+    <state x="514" y="177" key="NewPhpClassDialog" timestamp="1583668990586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="514" y="177" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1583654138525" />
-    <state x="518" y="286" key="NewPhpFileDialog" timestamp="1583654014532">
+    <state x="514" y="177" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1583668990586" />
+    <state x="518" y="286" key="NewPhpFileDialog" timestamp="1583668977522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583654014532" />
+    <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1583668977522" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1583648782495">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
